@@ -1,0 +1,204 @@
+.logo{
+    font-size: 5vw;
+    fill: rgb(250, 175, 187) !important;
+}
+
+.logo:hover {
+  transform: scale(1.15); 
+}
+
+.nav-link{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-link:hover{
+    color: pink !important;
+    transform: scale(1.1);
+}
+
+body{
+    background-color: #cdc2c2;
+    background-image: url('');
+}
+
+.card {
+    margin-bottom: 20px;
+    height: 35rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-img-top{
+    height: 18rem;
+}
+
+.card-title{
+    font-size: 20px; 
+    margin-top: 1rem;
+}
+
+.card-price {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.productHeading{
+    margin: 1rem 0 1rem 3rem;
+    font-size: 2vw;
+    margin-left: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.highlight{
+    color: pink !important;
+}
+
+.cart-img{
+    height:25rem;
+    margin:10vh;
+}
+
+.cartLogo{
+    fill:white;
+    margin-top: 0.5vw;
+}
+
+.wish{
+    fill: white;
+    margin-top: 0.5vw;
+}
+
+.checkout-img{
+    width: 13vw;
+}
+.cartLogo:hover{
+    fill:pink !important;
+}
+.wish:hover{
+    fill:pink !important;
+}
+.prod-heading{
+    align-items: center;
+    display: flex;
+    
+}
+.product-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw 15vw;
+}
+.custom-img{
+    width: 18vw;
+    border-radius: 0.8vw;
+}
+.custom-cardButton{
+    background-color: rgb(134, 107, 111);
+    border: 0;
+    border-radius: 0.8vw;
+    margin-bottom: 1vw;
+    /* width: 13vw; */
+}
+
+.prodDetails{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80%;
+    margin-bottom: 2vw;
+    padding-top: 1vw;
+    padding-left: 0.5vw;
+}
+
+.custom-image{
+    border-radius: 0.8vw;
+}
+.quantity-container{
+    margin: 1vw 0.5vw;
+}
+.tit{
+    font-size: 1.2vw;
+}
+.btn-primary{
+    background-color: rgb(134, 107, 111);
+    border: 0; 
+}
+.card-body{
+    background-color: rgb(213, 187, 191);
+}
+
+.dropbtn {
+    background-color: rgb(194, 162, 167);
+    color: black;
+    padding: 0.5vw 1vw;
+    margin-left: 1rem;
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 0.8vw;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    background-color: white;
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: pink; color: black !important;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: rgb(194, 162, 167);}
+
+  .formbody {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin: 0;
+}
+
+.checkout-form {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: rgb(134, 107, 111);
+}
+
+.paybutton{
+    background-color: rgb(134, 107, 111);
+    border: 0;
+    border-radius: 0.8vw;
+    margin-bottom: 1vw;
+    height: 3vw;
+    width: 10vw;
+}
